@@ -7,7 +7,16 @@
         0 0 40px red;
     font-size: 50px;
     text-align: center;
-    position: absolute;
-    left: 50px;
-    top: 500px;
+}
+
+.text:hover{
+    color: red;
+    text-shadow:
+        0 0 15px blueviolet,
+        0 0 20px blueviolet,
+        0 0 30px blueviolet,
+        0 0 40px blueviolet;
+    transition: 0.3s ease;
+    cursor: pointer;
+  
 }

@@ -14,10 +14,14 @@ class Mouse {
             x = Math.random() * kordinotaX,
             y = Math.random() * kordinataY;
 
-        this.text.style.position = "absolute";
-        this.text.style.left = `${x}px`;
-        this.text.style.top = `${y}px`;
+        this.text.style.marginLeft = `${x}px`;
+        this.text.style.marginTop = `${y}px`;
+
+        
+
+       
     }
 }
 
 new Mouse(".text");
+
